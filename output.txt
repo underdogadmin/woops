@@ -96,7 +96,7 @@ The following packages have unmet dependencies:
  libc6-i386 : Depends: libc6 (= 2.34-0ubuntu3) but 2.33-0ubuntu5 is installed
  
  
- /etc/apt                                                                                                                                                        13:57:35
+ /etc/apt
 ❯ ll
 total 60
 drwxr-xr-x   7 root root  4096 Dec 15 13:48 .
@@ -112,13 +112,13 @@ drwxr-xr-x   2 root root  4096 Dec 14 23:16 sources.list.d
 drwxr-xr-x   2 root root  4096 Dec 13 21:39 trusted.gpg.d
 
  
- /etc/apt                                                                                                                                                        14:04:44
+ /etc/apt
 ❯ cat sources.list                 
 ## This file is deprecated in Pop!_OS.
 ## See `man deb822` and /etc/apt/sources.list.d/system.sources.
  
  
- /etc/apt/sources.list.d                                                                                                                                         13:59:30
+ /etc/apt/sources.list.d
 ❯ ll
 total 44
 drwxr-xr-x 2 root root 4096 Dec 14 23:16 .
@@ -134,7 +134,7 @@ drwxr-xr-x 7 root root 4096 Dec 15 13:48 ..
 -rw-r--r-- 1 root root  291 Dec 14 21:52 system.sources
 
 
-/etc/apt/sources.list.d                                                                                                                                         13:59:32
+/etc/apt/sources.list.d
 ❯ cat system.sources               
 X-Repolib-Name: Pop_OS System Sources
 Enabled: yes
